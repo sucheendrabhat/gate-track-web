@@ -29,85 +29,19 @@ body {
   * { transition: none !important; animation: none !important; }
 }
 
-/* ---------- password gate ---------- */
+/* ---------- motivational quote ---------- */
 
-.gate-overlay {
-  position: fixed;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background:
-    radial-gradient(circle at 20% 20%, rgba(37, 99, 235, 0.10), transparent 45%),
-    var(--bg);
-  padding: 20px;
-  z-index: 50;
-}
-
-.gate-card {
-  width: 100%;
-  max-width: 340px;
-  background: var(--panel);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 32px 28px;
-  box-shadow: 0 10px 30px rgba(31, 36, 48, 0.08);
-  text-align: center;
-}
-
-.gate-eyebrow {
-  font-family: var(--mono);
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  color: var(--accent);
-  margin-bottom: 10px;
-}
-
-.gate-card h1 {
-  font-size: 22px;
-  margin: 0 0 6px;
-  font-weight: 800;
-}
-
-.gate-copy {
-  color: var(--muted);
-  font-size: 13.5px;
-  margin: 0 0 18px;
-}
-
-.gate-card input {
-  width: 100%;
-  padding: 10px 12px;
-  border-radius: 8px;
-  border: 1px solid var(--border);
+.quote-banner {
   font-family: var(--sans);
+  font-style: italic;
   font-size: 14px;
-  margin-bottom: 12px;
-  outline: none;
+  color: var(--muted);
+  border-left: 3px solid var(--accent);
+  padding: 8px 14px;
+  margin-bottom: 18px;
+  background: rgba(37, 99, 235, 0.04);
+  border-radius: 0 8px 8px 0;
 }
-
-.gate-card input:focus-visible {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
-}
-
-.gate-card button {
-  width: 100%;
-  padding: 10px 12px;
-  border-radius: 8px;
-  border: none;
-  background: var(--accent);
-  color: #fff;
-  font-weight: 600;
-  font-size: 14px;
-  cursor: pointer;
-  transition: background 0.15s ease;
-}
-
-.gate-card button:hover { background: var(--accent-dark); }
-.gate-card button:focus-visible { outline: 2px solid var(--accent-dark); outline-offset: 2px; }
-
-.gate-error { color: var(--l3); font-size: 12.5px; margin: 10px 0 0; }
 
 /* ---------- app shell ---------- */
 
@@ -139,6 +73,19 @@ body {
   font-weight: 800;
 }
 
+.countdown-badge {
+  display: inline-block;
+  margin-top: 8px;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(37, 99, 235, 0.08);
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  border-radius: 999px;
+  padding: 3px 10px;
+}
+
 .topbar-right {
   display: flex;
   flex-direction: column;
@@ -149,6 +96,27 @@ body {
 .synced {
   font-family: var(--mono);
   font-size: 11px;
+  color: var(--muted);
+}
+
+.share-btn {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.share-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+.share-status {
+  font-family: var(--mono);
+  font-size: 10.5px;
   color: var(--muted);
 }
 
@@ -317,6 +285,55 @@ body {
   color: var(--muted);
   margin-top: 5px;
 }
+
+.focus-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.focus-link:hover { text-decoration: underline; }
+
+/* ---------- pace chart ---------- */
+
+.pace-chart-wrap { overflow-x: auto; }
+
+.pace-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  height: 100px;
+  padding: 4px 2px;
+}
+
+.pace-bar-col {
+  flex: 1 0 14px;
+  min-width: 14px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.pace-bar {
+  width: 100%;
+  min-height: 2px;
+  background: var(--accent);
+  border-radius: 3px 3px 0 0;
+  opacity: 0.85;
+  transition: opacity 0.15s ease, height 0.2s ease;
+  cursor: pointer;
+}
+
+.pace-bar:hover { opacity: 1; }
+
+.pace-projection {
+  margin-top: 12px;
+  font-size: 12.5px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.pace-projection b { font-family: var(--mono); color: var(--accent); }
 
 /* ---------- activity ---------- */
 
