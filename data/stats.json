@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T06:26:53+00:00",
+  "generated_at": "2026-08-23T06:30:25+00:00",
   "sources": [
     {
       "id": 1,
@@ -23,10 +23,10 @@
   "unified": {
     "stats": {
       "total": 3823,
-      "L1": 43,
+      "L1": 44,
       "L2": 19,
       "L3": 24,
-      "NONE": 3737
+      "NONE": 3736
     },
     "by_chapter": [
       {
@@ -210,16 +210,6 @@
         "urgent": false
       },
       {
-        "chapter_name": "Programming and DS: Data Structures",
-        "total": 238,
-        "NONE": 236,
-        "L1": 1,
-        "L2": 0,
-        "L3": 1,
-        "pct_done": 0.8,
-        "urgent": false
-      },
-      {
         "chapter_name": "Discrete Mathematics: Graph Theory",
         "total": 88,
         "NONE": 87,
@@ -227,6 +217,16 @@
         "L2": 0,
         "L3": 0,
         "pct_done": 1.1,
+        "urgent": false
+      },
+      {
+        "chapter_name": "Programming and DS: Data Structures",
+        "total": 238,
+        "NONE": 235,
+        "L1": 2,
+        "L2": 0,
+        "L3": 1,
+        "pct_done": 1.3,
         "urgent": false
       },
       {
@@ -254,12 +254,12 @@
       "current_streak": 1,
       "longest_streak": 3,
       "active_days": 7,
-      "total_marked": 54,
+      "total_marked": 55,
       "daily": [
         {
           "date": "2026-08-23",
-          "total": 2,
-          "L1": 1,
+          "total": 3,
+          "L1": 2,
           "L2": 0,
           "L3": 1
         },
@@ -316,10 +316,10 @@
       "question_count": 1263,
       "stats": {
         "total": 1263,
-        "L1": 42,
+        "L1": 43,
         "L2": 19,
         "L3": 24,
-        "NONE": 1178
+        "NONE": 1177
       },
       "by_chapter": [
         {
@@ -355,11 +355,11 @@
         {
           "chapter_name": "Programming and DS: Data Structures",
           "total": 238,
-          "NONE": 236,
-          "L1": 1,
+          "NONE": 235,
+          "L1": 2,
           "L2": 0,
           "L3": 1,
-          "pct_done": 0.8,
+          "pct_done": 1.3,
           "urgent": false
         },
         {
@@ -387,12 +387,12 @@
         "current_streak": 1,
         "longest_streak": 2,
         "active_days": 6,
-        "total_marked": 53,
+        "total_marked": 54,
         "daily": [
           {
             "date": "2026-08-23",
-            "total": 2,
-            "L1": 1,
+            "total": 3,
+            "L1": 2,
             "L2": 0,
             "L3": 1
           },
