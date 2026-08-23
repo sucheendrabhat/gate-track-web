@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T06:42:21+00:00",
+  "generated_at": "2026-08-23T06:49:18+00:00",
   "sources": [
     {
       "id": 1,
@@ -25,8 +25,8 @@
       "total": 3823,
       "L1": 44,
       "L2": 19,
-      "L3": 25,
-      "NONE": 3735
+      "L3": 26,
+      "NONE": 3734
     },
     "by_chapter": [
       {
@@ -222,11 +222,11 @@
       {
         "chapter_name": "Programming and DS: Data Structures",
         "total": 238,
-        "NONE": 234,
+        "NONE": 233,
         "L1": 2,
         "L2": 0,
-        "L3": 2,
-        "pct_done": 1.7,
+        "L3": 3,
+        "pct_done": 2.1,
         "urgent": false
       },
       {
@@ -254,14 +254,14 @@
       "current_streak": 1,
       "longest_streak": 3,
       "active_days": 7,
-      "total_marked": 56,
+      "total_marked": 57,
       "daily": [
         {
           "date": "2026-08-23",
-          "total": 4,
+          "total": 5,
           "L1": 2,
           "L2": 0,
-          "L3": 2
+          "L3": 3
         },
         {
           "date": "2026-08-21",
@@ -318,8 +318,8 @@
         "total": 1263,
         "L1": 43,
         "L2": 19,
-        "L3": 25,
-        "NONE": 1176
+        "L3": 26,
+        "NONE": 1175
       },
       "by_chapter": [
         {
@@ -355,11 +355,11 @@
         {
           "chapter_name": "Programming and DS: Data Structures",
           "total": 238,
-          "NONE": 234,
+          "NONE": 233,
           "L1": 2,
           "L2": 0,
-          "L3": 2,
-          "pct_done": 1.7,
+          "L3": 3,
+          "pct_done": 2.1,
           "urgent": false
         },
         {
@@ -387,14 +387,14 @@
         "current_streak": 1,
         "longest_streak": 2,
         "active_days": 6,
-        "total_marked": 55,
+        "total_marked": 56,
         "daily": [
           {
             "date": "2026-08-23",
-            "total": 4,
+            "total": 5,
             "L1": 2,
             "L2": 0,
-            "L3": 2
+            "L3": 3
           },
           {
             "date": "2026-08-21",
