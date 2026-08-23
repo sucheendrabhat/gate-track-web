@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T06:25:35+00:00",
+  "generated_at": "2026-08-23T06:26:53+00:00",
   "sources": [
     {
       "id": 1,
@@ -25,8 +25,8 @@
       "total": 3823,
       "L1": 43,
       "L2": 19,
-      "L3": 23,
-      "NONE": 3738
+      "L3": 24,
+      "NONE": 3737
     },
     "by_chapter": [
       {
@@ -200,16 +200,6 @@
         "urgent": false
       },
       {
-        "chapter_name": "Programming and DS: Data Structures",
-        "total": 238,
-        "NONE": 237,
-        "L1": 1,
-        "L2": 0,
-        "L3": 0,
-        "pct_done": 0.4,
-        "urgent": false
-      },
-      {
         "chapter_name": "Theory of Computation",
         "total": 293,
         "NONE": 291,
@@ -217,6 +207,16 @@
         "L2": 1,
         "L3": 1,
         "pct_done": 0.7,
+        "urgent": false
+      },
+      {
+        "chapter_name": "Programming and DS: Data Structures",
+        "total": 238,
+        "NONE": 236,
+        "L1": 1,
+        "L2": 0,
+        "L3": 1,
+        "pct_done": 0.8,
         "urgent": false
       },
       {
@@ -254,14 +254,14 @@
       "current_streak": 1,
       "longest_streak": 3,
       "active_days": 7,
-      "total_marked": 53,
+      "total_marked": 54,
       "daily": [
         {
           "date": "2026-08-23",
-          "total": 1,
+          "total": 2,
           "L1": 1,
           "L2": 0,
-          "L3": 0
+          "L3": 1
         },
         {
           "date": "2026-08-21",
@@ -318,8 +318,8 @@
         "total": 1263,
         "L1": 42,
         "L2": 19,
-        "L3": 23,
-        "NONE": 1179
+        "L3": 24,
+        "NONE": 1178
       },
       "by_chapter": [
         {
@@ -343,16 +343,6 @@
           "urgent": false
         },
         {
-          "chapter_name": "Programming and DS: Data Structures",
-          "total": 238,
-          "NONE": 237,
-          "L1": 1,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.4,
-          "urgent": false
-        },
-        {
           "chapter_name": "Theory of Computation",
           "total": 293,
           "NONE": 291,
@@ -360,6 +350,16 @@
           "L2": 1,
           "L3": 1,
           "pct_done": 0.7,
+          "urgent": false
+        },
+        {
+          "chapter_name": "Programming and DS: Data Structures",
+          "total": 238,
+          "NONE": 236,
+          "L1": 1,
+          "L2": 0,
+          "L3": 1,
+          "pct_done": 0.8,
           "urgent": false
         },
         {
@@ -387,14 +387,14 @@
         "current_streak": 1,
         "longest_streak": 2,
         "active_days": 6,
-        "total_marked": 52,
+        "total_marked": 53,
         "daily": [
           {
             "date": "2026-08-23",
-            "total": 1,
+            "total": 2,
             "L1": 1,
             "L2": 0,
-            "L3": 0
+            "L3": 1
           },
           {
             "date": "2026-08-21",
