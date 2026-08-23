@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T07:06:31+00:00",
+  "generated_at": "2026-08-23T07:08:33+00:00",
   "sources": [
     {
       "id": 1,
@@ -23,10 +23,10 @@
   "unified": {
     "stats": {
       "total": 3823,
-      "L1": 45,
+      "L1": 46,
       "L2": 19,
       "L3": 26,
-      "NONE": 3733
+      "NONE": 3732
     },
     "by_chapter": [
       {
@@ -222,11 +222,11 @@
       {
         "chapter_name": "Programming and DS: Data Structures",
         "total": 238,
-        "NONE": 232,
-        "L1": 3,
+        "NONE": 231,
+        "L1": 4,
         "L2": 0,
         "L3": 3,
-        "pct_done": 2.5,
+        "pct_done": 2.9,
         "urgent": false
       },
       {
@@ -254,12 +254,12 @@
       "current_streak": 1,
       "longest_streak": 3,
       "active_days": 7,
-      "total_marked": 58,
+      "total_marked": 59,
       "daily": [
         {
           "date": "2026-08-23",
-          "total": 6,
-          "L1": 3,
+          "total": 7,
+          "L1": 4,
           "L2": 0,
           "L3": 3
         },
@@ -316,10 +316,10 @@
       "question_count": 1263,
       "stats": {
         "total": 1263,
-        "L1": 44,
+        "L1": 45,
         "L2": 19,
         "L3": 26,
-        "NONE": 1174
+        "NONE": 1173
       },
       "by_chapter": [
         {
@@ -355,11 +355,11 @@
         {
           "chapter_name": "Programming and DS: Data Structures",
           "total": 238,
-          "NONE": 232,
-          "L1": 3,
+          "NONE": 231,
+          "L1": 4,
           "L2": 0,
           "L3": 3,
-          "pct_done": 2.5,
+          "pct_done": 2.9,
           "urgent": false
         },
         {
@@ -387,12 +387,12 @@
         "current_streak": 1,
         "longest_streak": 2,
         "active_days": 6,
-        "total_marked": 57,
+        "total_marked": 58,
         "daily": [
           {
             "date": "2026-08-23",
-            "total": 6,
-            "L1": 3,
+            "total": 7,
+            "L1": 4,
             "L2": 0,
             "L3": 3
           },
