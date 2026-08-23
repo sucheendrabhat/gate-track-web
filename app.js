@@ -1,49 +1,14 @@
 const DATA_URL = "data/stats.json";
 
-// SHA-256 hex of the site password. This placeholder matches "changeme" —
-// replace it before you publish. Generate your own with:
-//   python3 -c "import hashlib;print(hashlib.sha256('yourpassword'.encode()).hexdigest())"
-// or, in any browser console:
-//   crypto.subtle.digest('SHA-256', new TextEncoder().encode('yourpassword'))
-//     .then(b => console.log([...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')))
-const PASSWORD_HASH = "74a438d2559db2dc1f6f98a1008d6c50eb12f9f9932fd5173a6364cd5463a8a3";
-
 let STATE = null;   // parsed stats.json
 let SCOPE = "all";  // "all" or a source id (string)
-
-async function sha256Hex(text) {
-  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
-  return Array.from(new Uint8Array(buf)).map((b) => b.toString(16).padStart(2, "0")).join("");
-}
 
 function initGate() {
   const overlay = document.getElementById("gate-overlay");
   const app = document.getElementById("app");
-  const form = document.getElementById("gate-form");
-  const input = document.getElementById("gate-input");
-  const error = document.getElementById("gate-error");
-
-  if (sessionStorage.getItem("gate-unlocked") === "1") {
-    overlay.hidden = true;
-    app.hidden = false;
-    boot();
-    return;
-  }
-
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault();
-    const hash = await sha256Hex(input.value);
-    if (hash === PASSWORD_HASH) {
-      sessionStorage.setItem("gate-unlocked", "1");
-      overlay.hidden = true;
-      app.hidden = false;
-      boot();
-    } else {
-      error.hidden = false;
-      input.value = "";
-      input.focus();
-    }
-  });
+  if (overlay) overlay.hidden = true;
+  if (app) app.hidden = false;
+  boot();
 }
 
 async function boot() {
