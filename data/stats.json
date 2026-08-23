@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T05:18:24+00:00",
+  "generated_at": "2026-08-23T06:20:49+00:00",
   "sources": [
     {
       "id": 1,
@@ -23,10 +23,10 @@
   "unified": {
     "stats": {
       "total": 3823,
-      "L1": 42,
+      "L1": 43,
       "L2": 19,
       "L3": 23,
-      "NONE": 3739
+      "NONE": 3738
     },
     "by_chapter": [
       {
@@ -190,16 +190,6 @@
         "urgent": false
       },
       {
-        "chapter_name": "Programming and DS: Data Structures",
-        "total": 238,
-        "NONE": 238,
-        "L1": 0,
-        "L2": 0,
-        "L3": 0,
-        "pct_done": 0.0,
-        "urgent": false
-      },
-      {
         "chapter_name": "Programming and DS: Programming",
         "total": 1,
         "NONE": 1,
@@ -207,6 +197,16 @@
         "L2": 0,
         "L3": 0,
         "pct_done": 0.0,
+        "urgent": false
+      },
+      {
+        "chapter_name": "Programming and DS: Data Structures",
+        "total": 238,
+        "NONE": 237,
+        "L1": 1,
+        "L2": 0,
+        "L3": 0,
+        "pct_done": 0.4,
         "urgent": false
       },
       {
@@ -251,11 +251,18 @@
       }
     ],
     "activity": {
-      "current_streak": 0,
+      "current_streak": 1,
       "longest_streak": 3,
-      "active_days": 6,
-      "total_marked": 52,
+      "active_days": 7,
+      "total_marked": 53,
       "daily": [
+        {
+          "date": "2026-08-23",
+          "total": 1,
+          "L1": 1,
+          "L2": 0,
+          "L3": 0
+        },
         {
           "date": "2026-08-21",
           "total": 17,
@@ -309,26 +316,16 @@
       "question_count": 1263,
       "stats": {
         "total": 1263,
-        "L1": 41,
+        "L1": 42,
         "L2": 19,
         "L3": 23,
-        "NONE": 1180
+        "NONE": 1179
       },
       "by_chapter": [
         {
           "chapter_name": "Algorithms",
           "total": 358,
           "NONE": 358,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
-        {
-          "chapter_name": "Programming and DS: Data Structures",
-          "total": 238,
-          "NONE": 238,
           "L1": 0,
           "L2": 0,
           "L3": 0,
@@ -343,6 +340,16 @@
           "L2": 0,
           "L3": 0,
           "pct_done": 0.0,
+          "urgent": false
+        },
+        {
+          "chapter_name": "Programming and DS: Data Structures",
+          "total": 238,
+          "NONE": 237,
+          "L1": 1,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.4,
           "urgent": false
         },
         {
@@ -377,11 +384,18 @@
         }
       ],
       "activity": {
-        "current_streak": 0,
+        "current_streak": 1,
         "longest_streak": 2,
-        "active_days": 5,
-        "total_marked": 51,
+        "active_days": 6,
+        "total_marked": 52,
         "daily": [
+          {
+            "date": "2026-08-23",
+            "total": 1,
+            "L1": 1,
+            "L2": 0,
+            "L3": 0
+          },
           {
             "date": "2026-08-21",
             "total": 17,
