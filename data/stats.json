@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T07:05:17+00:00",
+  "generated_at": "2026-08-23T07:06:31+00:00",
   "sources": [
     {
       "id": 1,
@@ -23,8 +23,8 @@
   "unified": {
     "stats": {
       "total": 3823,
-      "L1": 44,
-      "L2": 20,
+      "L1": 45,
+      "L2": 19,
       "L3": 26,
       "NONE": 3733
     },
@@ -223,8 +223,8 @@
         "chapter_name": "Programming and DS: Data Structures",
         "total": 238,
         "NONE": 232,
-        "L1": 2,
-        "L2": 1,
+        "L1": 3,
+        "L2": 0,
         "L3": 3,
         "pct_done": 2.5,
         "urgent": false
@@ -259,8 +259,8 @@
         {
           "date": "2026-08-23",
           "total": 6,
-          "L1": 2,
-          "L2": 1,
+          "L1": 3,
+          "L2": 0,
           "L3": 3
         },
         {
@@ -316,8 +316,8 @@
       "question_count": 1263,
       "stats": {
         "total": 1263,
-        "L1": 43,
-        "L2": 20,
+        "L1": 44,
+        "L2": 19,
         "L3": 26,
         "NONE": 1174
       },
@@ -356,8 +356,8 @@
           "chapter_name": "Programming and DS: Data Structures",
           "total": 238,
           "NONE": 232,
-          "L1": 2,
-          "L2": 1,
+          "L1": 3,
+          "L2": 0,
           "L3": 3,
           "pct_done": 2.5,
           "urgent": false
@@ -392,8 +392,8 @@
           {
             "date": "2026-08-23",
             "total": 6,
-            "L1": 2,
-            "L2": 1,
+            "L1": 3,
+            "L2": 0,
             "L3": 3
           },
           {
