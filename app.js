@@ -126,20 +126,19 @@ function renderActivity() {
     .join("");
 
   renderHeatmap(a.daily);
-
-  const tbody = document.querySelector("#daily-table tbody");
-  tbody.innerHTML =
-    a.daily
-      .map((d) => `<tr><td>${d.date}</td><td>${d.total}</td><td>${d.L1}</td><td>${d.L2}</td><td>${d.L3}</td></tr>`)
-      .join("") || `<tr><td colspan="5" class="empty">Nothing marked yet.</td></tr>`;
+  renderDailyCalendar(a.daily);
 }
 
 function heatColor(count) {
   if (count <= 0) return "#ebedf0";
-  if (count <= 1) return "#c6dbef";
-  if (count <= 3) return "#6baed6";
-  if (count <= 6) return "#2171b5";
-  return "#08306b";
+  if (count <= 1) return "#9be9a8";
+  if (count <= 3) return "#40c463";
+  if (count <= 6) return "#30a14e";
+  return "#216e39";
+}
+
+function heatTextColor(count) {
+  return count > 3 ? "#ffffff" : "#1f2430";
 }
 
 function renderHeatmap(daily) {
@@ -202,6 +201,74 @@ function renderHeatmap(daily) {
 
   const hint = document.getElementById("heatmap-hint");
   el.querySelectorAll(".heatmap-cell[data-date]").forEach((cell) => {
+    cell.addEventListener("mouseenter", () => {
+      const d = new Date(cell.dataset.date + "T00:00:00");
+      const label = d.toLocaleDateString("en-US", { weekday: "short", day: "2-digit", month: "short", year: "numeric" });
+      hint.textContent = `${label}: ${cell.dataset.count} question(s) marked`;
+    });
+  });
+}
+
+function renderDailyCalendar(daily) {
+  const countsByDate = Object.fromEntries(daily.map((d) => [d.date, d.total]));
+
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const dates = daily.map((d) => new Date(d.date + "T00:00:00"));
+  const earliest = dates.length ? new Date(Math.min(...dates)) : new Date(today);
+
+  const start = new Date(earliest.getFullYear(), earliest.getMonth(), 1);
+  const end = new Date(today.getFullYear(), today.getMonth(), 1);
+
+  const months = [];
+  const cursor = new Date(start);
+  while (cursor <= end) {
+    months.push(new Date(cursor));
+    cursor.setMonth(cursor.getMonth() + 1);
+  }
+
+  const weekdayLabels = ["S", "M", "T", "W", "T", "F", "S"];
+
+  const monthsHtml = months
+    .map((monthDate) => {
+      const year = monthDate.getFullYear();
+      const month = monthDate.getMonth();
+      const daysInMonth = new Date(year, month + 1, 0).getDate();
+      const leadingBlanks = new Date(year, month, 1).getDay(); // 0 = Sunday
+
+      const cells = [];
+      for (let i = 0; i < leadingBlanks; i++) cells.push(null);
+      for (let day = 1; day <= daysInMonth; day++) cells.push(new Date(year, month, day));
+
+      const cellsHtml = cells
+        .map((d) => {
+          if (!d) return `<span class="cal-cell pad"></span>`;
+          if (d > today) return `<span class="cal-cell future">${d.getDate()}</span>`;
+          const iso = toIsoDate(d);
+          const cnt = countsByDate[iso] || 0;
+          const bg = heatColor(cnt);
+          const fg = heatTextColor(cnt);
+          return `<span class="cal-cell" data-date="${iso}" data-count="${cnt}" style="background:${bg}; color:${fg}">${d.getDate()}</span>`;
+        })
+        .join("");
+
+      const title = monthDate.toLocaleString("en-US", { month: "long", year: "numeric" });
+
+      return `
+        <div class="cal-month">
+          <div class="cal-month-title">${title}</div>
+          <div class="cal-weekdays">${weekdayLabels.map((l) => `<span>${l}</span>`).join("")}</div>
+          <div class="cal-grid">${cellsHtml}</div>
+        </div>`;
+    })
+    .join("");
+
+  const el = document.getElementById("daily-calendar");
+  el.innerHTML = monthsHtml || `<div class="empty">Nothing marked yet.</div>`;
+
+  const hint = document.getElementById("daily-calendar-hint");
+  el.querySelectorAll(".cal-cell[data-date]").forEach((cell) => {
     cell.addEventListener("mouseenter", () => {
       const d = new Date(cell.dataset.date + "T00:00:00");
       const label = d.toLocaleDateString("en-US", { weekday: "short", day: "2-digit", month: "short", year: "numeric" });
