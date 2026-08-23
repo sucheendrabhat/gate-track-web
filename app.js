@@ -3,7 +3,7 @@ const DATA_URL = "data/stats.json";
 // Your GATE exam date -- computed from "169 days from 23 Aug 2026" per
 // your Excel tracker. Double-check this against the actual admit-card /
 // official date and adjust if it's off.
-const EXAM_DATE = "2027-02-08";
+const EXAM_DATE = "2027-02-06";
 
 // How many weeks back the pace chart looks, and how many of the most
 // recent weeks count toward the "current pace" projection.
