@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T18:02:32+00:00",
+  "generated_at": "2026-08-26T03:20:24+00:00",
   "sources": [
     {
       "id": 1,
@@ -251,7 +251,7 @@
       }
     ],
     "activity": {
-      "current_streak": 2,
+      "current_streak": 0,
       "longest_streak": 3,
       "active_days": 8,
       "total_marked": 63,
@@ -391,7 +391,7 @@
         }
       ],
       "activity": {
-        "current_streak": 2,
+        "current_streak": 0,
         "longest_streak": 2,
         "active_days": 7,
         "total_marked": 62,
