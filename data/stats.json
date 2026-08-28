@@ -1,6 +1,12 @@
 {
-  "generated_at": "2026-08-26T03:34:43+00:00",
+  "generated_at": "2026-08-28T17:43:01+00:00",
   "sources": [
+    {
+      "id": 3,
+      "filename": "filter1_volume3.pdf",
+      "added_at": "2026-07-29T15:29:54+00:00",
+      "question_count": 1435
+    },
     {
       "id": 1,
       "filename": "filter1_volume2.pdf",
@@ -12,12 +18,6 @@
       "filename": "filter1_volume1.pdf",
       "added_at": "2026-07-28T08:16:29+00:00",
       "question_count": 1125
-    },
-    {
-      "id": 3,
-      "filename": "filter1_volume3.pdf",
-      "added_at": "2026-07-29T15:29:54+00:00",
-      "question_count": 1435
     }
   ],
   "unified": {
@@ -316,10 +316,82 @@
     }
   },
   "by_source": {
+    "3": {
+      "filename": "filter1_volume3.pdf",
+      "added_at": "2026-07-29T15:29:54+00:00",
+      "last_opened": "2026-08-28T17:42:58+00:00",
+      "question_count": 1435,
+      "stats": {
+        "total": 1435,
+        "L1": 0,
+        "L2": 0,
+        "L3": 0,
+        "NONE": 1435
+      },
+      "by_chapter": [
+        {
+          "chapter_name": "CO & Architecture",
+          "total": 251,
+          "NONE": 251,
+          "L1": 0,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.0,
+          "urgent": false
+        },
+        {
+          "chapter_name": "Computer Networks",
+          "total": 226,
+          "NONE": 226,
+          "L1": 0,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.0,
+          "urgent": false
+        },
+        {
+          "chapter_name": "Databases",
+          "total": 302,
+          "NONE": 302,
+          "L1": 0,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.0,
+          "urgent": false
+        },
+        {
+          "chapter_name": "Digital Logic",
+          "total": 313,
+          "NONE": 313,
+          "L1": 0,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.0,
+          "urgent": false
+        },
+        {
+          "chapter_name": "Operating System",
+          "total": 343,
+          "NONE": 343,
+          "L1": 0,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.0,
+          "urgent": false
+        }
+      ],
+      "activity": {
+        "current_streak": 0,
+        "longest_streak": 0,
+        "active_days": 0,
+        "total_marked": 0,
+        "daily": []
+      }
+    },
     "1": {
       "filename": "filter1_volume2.pdf",
       "added_at": "2026-07-28T04:41:55+00:00",
-      "last_opened": "2026-08-24T17:59:00+00:00",
+      "last_opened": "2026-08-28T17:42:57+00:00",
       "question_count": 1263,
       "stats": {
         "total": 1263,
@@ -451,7 +523,7 @@
     "2": {
       "filename": "filter1_volume1.pdf",
       "added_at": "2026-07-28T08:16:29+00:00",
-      "last_opened": "2026-08-24T17:59:00+00:00",
+      "last_opened": "2026-08-28T17:42:57+00:00",
       "question_count": 1125,
       "stats": {
         "total": 1125,
@@ -586,78 +658,6 @@
             "L3": 0
           }
         ]
-      }
-    },
-    "3": {
-      "filename": "filter1_volume3.pdf",
-      "added_at": "2026-07-29T15:29:54+00:00",
-      "last_opened": "2026-08-24T17:59:00+00:00",
-      "question_count": 1435,
-      "stats": {
-        "total": 1435,
-        "L1": 0,
-        "L2": 0,
-        "L3": 0,
-        "NONE": 1435
-      },
-      "by_chapter": [
-        {
-          "chapter_name": "CO & Architecture",
-          "total": 251,
-          "NONE": 251,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
-        {
-          "chapter_name": "Computer Networks",
-          "total": 226,
-          "NONE": 226,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
-        {
-          "chapter_name": "Databases",
-          "total": 302,
-          "NONE": 302,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
-        {
-          "chapter_name": "Digital Logic",
-          "total": 313,
-          "NONE": 313,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
-        {
-          "chapter_name": "Operating System",
-          "total": 343,
-          "NONE": 343,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        }
-      ],
-      "activity": {
-        "current_streak": 0,
-        "longest_streak": 0,
-        "active_days": 0,
-        "total_marked": 0,
-        "daily": []
       }
     }
   }
