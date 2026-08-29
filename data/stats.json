@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-29T02:09:50+00:00",
+  "generated_at": "2026-08-29T07:11:22+00:00",
   "sources": [
-    {
-      "id": 2,
-      "filename": "filter1_volume1.pdf",
-      "added_at": "2026-07-28T08:16:29+00:00",
-      "question_count": 1125
-    },
     {
       "id": 1,
       "filename": "filter1_volume2.pdf",
       "added_at": "2026-07-28T04:41:55+00:00",
       "question_count": 1263
+    },
+    {
+      "id": 2,
+      "filename": "filter1_volume1.pdf",
+      "added_at": "2026-07-28T08:16:29+00:00",
+      "question_count": 1125
     },
     {
       "id": 3,
@@ -316,10 +316,142 @@
     }
   },
   "by_source": {
+    "1": {
+      "filename": "filter1_volume2.pdf",
+      "added_at": "2026-07-28T04:41:55+00:00",
+      "last_opened": "2026-08-29T07:11:19+00:00",
+      "question_count": 1263,
+      "stats": {
+        "total": 1263,
+        "L1": 47,
+        "L2": 19,
+        "L3": 28,
+        "NONE": 1169
+      },
+      "by_chapter": [
+        {
+          "chapter_name": "Algorithms",
+          "total": 358,
+          "NONE": 358,
+          "L1": 0,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.0,
+          "urgent": false
+        },
+        {
+          "chapter_name": "Programming and DS: Programming",
+          "total": 1,
+          "NONE": 1,
+          "L1": 0,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.0,
+          "urgent": false
+        },
+        {
+          "chapter_name": "Theory of Computation",
+          "total": 293,
+          "NONE": 291,
+          "L1": 0,
+          "L2": 1,
+          "L3": 1,
+          "pct_done": 0.7,
+          "urgent": false
+        },
+        {
+          "chapter_name": "Programming and DS: Data Structures",
+          "total": 238,
+          "NONE": 227,
+          "L1": 6,
+          "L2": 0,
+          "L3": 5,
+          "pct_done": 4.6,
+          "urgent": true
+        },
+        {
+          "chapter_name": "Compiler Design",
+          "total": 242,
+          "NONE": 209,
+          "L1": 13,
+          "L2": 9,
+          "L3": 11,
+          "pct_done": 13.6,
+          "urgent": true
+        },
+        {
+          "chapter_name": "Programming: Programming in C",
+          "total": 131,
+          "NONE": 83,
+          "L1": 28,
+          "L2": 9,
+          "L3": 11,
+          "pct_done": 36.6,
+          "urgent": true
+        }
+      ],
+      "activity": {
+        "current_streak": 0,
+        "longest_streak": 2,
+        "active_days": 7,
+        "total_marked": 62,
+        "daily": [
+          {
+            "date": "2026-08-24",
+            "total": 1,
+            "L1": 0,
+            "L2": 0,
+            "L3": 1
+          },
+          {
+            "date": "2026-08-23",
+            "total": 10,
+            "L1": 6,
+            "L2": 0,
+            "L3": 4
+          },
+          {
+            "date": "2026-08-21",
+            "total": 17,
+            "L1": 6,
+            "L2": 4,
+            "L3": 7
+          },
+          {
+            "date": "2026-08-17",
+            "total": 6,
+            "L1": 6,
+            "L2": 0,
+            "L3": 0
+          },
+          {
+            "date": "2026-08-16",
+            "total": 18,
+            "L1": 10,
+            "L2": 5,
+            "L3": 3
+          },
+          {
+            "date": "2026-08-13",
+            "total": 9,
+            "L1": 7,
+            "L2": 0,
+            "L3": 2
+          },
+          {
+            "date": "2026-07-31",
+            "total": 1,
+            "L1": 1,
+            "L2": 0,
+            "L3": 0
+          }
+        ]
+      }
+    },
     "2": {
       "filename": "filter1_volume1.pdf",
       "added_at": "2026-07-28T08:16:29+00:00",
-      "last_opened": "2026-08-29T02:09:47+00:00",
+      "last_opened": "2026-08-29T07:11:19+00:00",
       "question_count": 1125,
       "stats": {
         "total": 1125,
@@ -456,142 +588,10 @@
         ]
       }
     },
-    "1": {
-      "filename": "filter1_volume2.pdf",
-      "added_at": "2026-07-28T04:41:55+00:00",
-      "last_opened": "2026-08-29T02:09:43+00:00",
-      "question_count": 1263,
-      "stats": {
-        "total": 1263,
-        "L1": 47,
-        "L2": 19,
-        "L3": 28,
-        "NONE": 1169
-      },
-      "by_chapter": [
-        {
-          "chapter_name": "Algorithms",
-          "total": 358,
-          "NONE": 358,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
-        {
-          "chapter_name": "Programming and DS: Programming",
-          "total": 1,
-          "NONE": 1,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
-        {
-          "chapter_name": "Theory of Computation",
-          "total": 293,
-          "NONE": 291,
-          "L1": 0,
-          "L2": 1,
-          "L3": 1,
-          "pct_done": 0.7,
-          "urgent": false
-        },
-        {
-          "chapter_name": "Programming and DS: Data Structures",
-          "total": 238,
-          "NONE": 227,
-          "L1": 6,
-          "L2": 0,
-          "L3": 5,
-          "pct_done": 4.6,
-          "urgent": true
-        },
-        {
-          "chapter_name": "Compiler Design",
-          "total": 242,
-          "NONE": 209,
-          "L1": 13,
-          "L2": 9,
-          "L3": 11,
-          "pct_done": 13.6,
-          "urgent": true
-        },
-        {
-          "chapter_name": "Programming: Programming in C",
-          "total": 131,
-          "NONE": 83,
-          "L1": 28,
-          "L2": 9,
-          "L3": 11,
-          "pct_done": 36.6,
-          "urgent": true
-        }
-      ],
-      "activity": {
-        "current_streak": 0,
-        "longest_streak": 2,
-        "active_days": 7,
-        "total_marked": 62,
-        "daily": [
-          {
-            "date": "2026-08-24",
-            "total": 1,
-            "L1": 0,
-            "L2": 0,
-            "L3": 1
-          },
-          {
-            "date": "2026-08-23",
-            "total": 10,
-            "L1": 6,
-            "L2": 0,
-            "L3": 4
-          },
-          {
-            "date": "2026-08-21",
-            "total": 17,
-            "L1": 6,
-            "L2": 4,
-            "L3": 7
-          },
-          {
-            "date": "2026-08-17",
-            "total": 6,
-            "L1": 6,
-            "L2": 0,
-            "L3": 0
-          },
-          {
-            "date": "2026-08-16",
-            "total": 18,
-            "L1": 10,
-            "L2": 5,
-            "L3": 3
-          },
-          {
-            "date": "2026-08-13",
-            "total": 9,
-            "L1": 7,
-            "L2": 0,
-            "L3": 2
-          },
-          {
-            "date": "2026-07-31",
-            "total": 1,
-            "L1": 1,
-            "L2": 0,
-            "L3": 0
-          }
-        ]
-      }
-    },
     "3": {
       "filename": "filter1_volume3.pdf",
       "added_at": "2026-07-29T15:29:54+00:00",
-      "last_opened": "2026-08-29T02:09:40+00:00",
+      "last_opened": "2026-08-29T07:11:19+00:00",
       "question_count": 1435,
       "stats": {
         "total": 1435,
