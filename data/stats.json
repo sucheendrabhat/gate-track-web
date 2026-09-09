@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T12:55:53+00:00",
+  "generated_at": "2026-09-09T12:57:24+00:00",
   "sources": [
     {
       "id": 1,
@@ -24,21 +24,11 @@
     "stats": {
       "total": 3823,
       "L1": 48,
-      "L2": 19,
+      "L2": 20,
       "L3": 28,
-      "NONE": 3728
+      "NONE": 3727
     },
     "by_chapter": [
-      {
-        "chapter_name": "Algorithms",
-        "total": 358,
-        "NONE": 358,
-        "L1": 0,
-        "L2": 0,
-        "L3": 0,
-        "pct_done": 0.0,
-        "urgent": false
-      },
       {
         "chapter_name": "CO & Architecture",
         "total": 251,
@@ -200,6 +190,16 @@
         "urgent": false
       },
       {
+        "chapter_name": "Algorithms",
+        "total": 358,
+        "NONE": 357,
+        "L1": 0,
+        "L2": 1,
+        "L3": 0,
+        "pct_done": 0.3,
+        "urgent": false
+      },
+      {
         "chapter_name": "Theory of Computation",
         "total": 293,
         "NONE": 291,
@@ -251,11 +251,18 @@
       }
     ],
     "activity": {
-      "current_streak": 0,
+      "current_streak": 1,
       "longest_streak": 3,
-      "active_days": 8,
-      "total_marked": 63,
+      "active_days": 9,
+      "total_marked": 64,
       "daily": [
+        {
+          "date": "2026-09-09",
+          "total": 1,
+          "L1": 0,
+          "L2": 1,
+          "L3": 0
+        },
         {
           "date": "2026-08-24",
           "total": 1,
@@ -324,21 +331,11 @@
       "stats": {
         "total": 1263,
         "L1": 47,
-        "L2": 19,
+        "L2": 20,
         "L3": 28,
-        "NONE": 1169
+        "NONE": 1168
       },
       "by_chapter": [
-        {
-          "chapter_name": "Algorithms",
-          "total": 358,
-          "NONE": 358,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
         {
           "chapter_name": "Programming and DS: Programming",
           "total": 1,
@@ -347,6 +344,16 @@
           "L2": 0,
           "L3": 0,
           "pct_done": 0.0,
+          "urgent": false
+        },
+        {
+          "chapter_name": "Algorithms",
+          "total": 358,
+          "NONE": 357,
+          "L1": 0,
+          "L2": 1,
+          "L3": 0,
+          "pct_done": 0.3,
           "urgent": false
         },
         {
@@ -391,11 +398,18 @@
         }
       ],
       "activity": {
-        "current_streak": 0,
+        "current_streak": 1,
         "longest_streak": 2,
-        "active_days": 7,
-        "total_marked": 62,
+        "active_days": 8,
+        "total_marked": 63,
         "daily": [
+          {
+            "date": "2026-09-09",
+            "total": 1,
+            "L1": 0,
+            "L2": 1,
+            "L3": 0
+          },
           {
             "date": "2026-08-24",
             "total": 1,
