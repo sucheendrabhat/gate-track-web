@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:39:04+00:00",
+  "generated_at": "2026-09-25T16:40:40+00:00",
   "sources": [
     {
       "id": 2,
@@ -23,10 +23,10 @@
   "unified": {
     "stats": {
       "total": 3823,
-      "L1": 48,
+      "L1": 49,
       "L2": 20,
       "L3": 28,
-      "NONE": 3727
+      "NONE": 3726
     },
     "by_chapter": [
       {
@@ -43,16 +43,6 @@
         "chapter_name": "Computer Networks",
         "total": 226,
         "NONE": 226,
-        "L1": 0,
-        "L2": 0,
-        "L3": 0,
-        "pct_done": 0.0,
-        "urgent": false
-      },
-      {
-        "chapter_name": "Databases",
-        "total": 302,
-        "NONE": 302,
         "L1": 0,
         "L2": 0,
         "L3": 0,
@@ -200,6 +190,16 @@
         "urgent": false
       },
       {
+        "chapter_name": "Databases",
+        "total": 302,
+        "NONE": 301,
+        "L1": 1,
+        "L2": 0,
+        "L3": 0,
+        "pct_done": 0.3,
+        "urgent": false
+      },
+      {
         "chapter_name": "Theory of Computation",
         "total": 293,
         "NONE": 291,
@@ -251,11 +251,18 @@
       }
     ],
     "activity": {
-      "current_streak": 0,
+      "current_streak": 1,
       "longest_streak": 3,
-      "active_days": 9,
-      "total_marked": 64,
+      "active_days": 10,
+      "total_marked": 65,
       "daily": [
+        {
+          "date": "2026-09-25",
+          "total": 1,
+          "L1": 1,
+          "L2": 0,
+          "L3": 0
+        },
         {
           "date": "2026-09-09",
           "total": 1,
@@ -470,10 +477,10 @@
       "question_count": 1435,
       "stats": {
         "total": 1435,
-        "L1": 0,
+        "L1": 1,
         "L2": 0,
         "L3": 0,
-        "NONE": 1435
+        "NONE": 1434
       },
       "by_chapter": [
         {
@@ -490,16 +497,6 @@
           "chapter_name": "Computer Networks",
           "total": 226,
           "NONE": 226,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
-        {
-          "chapter_name": "Databases",
-          "total": 302,
-          "NONE": 302,
           "L1": 0,
           "L2": 0,
           "L3": 0,
@@ -525,14 +522,32 @@
           "L3": 0,
           "pct_done": 0.0,
           "urgent": false
+        },
+        {
+          "chapter_name": "Databases",
+          "total": 302,
+          "NONE": 301,
+          "L1": 1,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.3,
+          "urgent": false
         }
       ],
       "activity": {
-        "current_streak": 0,
-        "longest_streak": 0,
-        "active_days": 0,
-        "total_marked": 0,
-        "daily": []
+        "current_streak": 1,
+        "longest_streak": 1,
+        "active_days": 1,
+        "total_marked": 1,
+        "daily": [
+          {
+            "date": "2026-09-25",
+            "total": 1,
+            "L1": 1,
+            "L2": 0,
+            "L3": 0
+          }
+        ]
       }
     },
     "1": {
