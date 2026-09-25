@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:43:03+00:00",
+  "generated_at": "2026-09-25T16:46:45+00:00",
   "sources": [
     {
       "id": 2,
@@ -24,9 +24,9 @@
     "stats": {
       "total": 3823,
       "L1": 50,
-      "L2": 20,
+      "L2": 21,
       "L3": 28,
-      "NONE": 3725
+      "NONE": 3724
     },
     "by_chapter": [
       {
@@ -190,16 +190,6 @@
         "urgent": false
       },
       {
-        "chapter_name": "Databases",
-        "total": 302,
-        "NONE": 300,
-        "L1": 2,
-        "L2": 0,
-        "L3": 0,
-        "pct_done": 0.7,
-        "urgent": false
-      },
-      {
         "chapter_name": "Theory of Computation",
         "total": 293,
         "NONE": 291,
@@ -207,6 +197,16 @@
         "L2": 1,
         "L3": 1,
         "pct_done": 0.7,
+        "urgent": false
+      },
+      {
+        "chapter_name": "Databases",
+        "total": 302,
+        "NONE": 299,
+        "L1": 2,
+        "L2": 1,
+        "L3": 0,
+        "pct_done": 1.0,
         "urgent": false
       },
       {
@@ -254,13 +254,13 @@
       "current_streak": 1,
       "longest_streak": 3,
       "active_days": 10,
-      "total_marked": 66,
+      "total_marked": 67,
       "daily": [
         {
           "date": "2026-09-25",
-          "total": 2,
+          "total": 3,
           "L1": 2,
-          "L2": 0,
+          "L2": 1,
           "L3": 0
         },
         {
@@ -478,9 +478,9 @@
       "stats": {
         "total": 1435,
         "L1": 2,
-        "L2": 0,
+        "L2": 1,
         "L3": 0,
-        "NONE": 1433
+        "NONE": 1432
       },
       "by_chapter": [
         {
@@ -526,11 +526,11 @@
         {
           "chapter_name": "Databases",
           "total": 302,
-          "NONE": 300,
+          "NONE": 299,
           "L1": 2,
-          "L2": 0,
+          "L2": 1,
           "L3": 0,
-          "pct_done": 0.7,
+          "pct_done": 1.0,
           "urgent": false
         }
       ],
@@ -538,13 +538,13 @@
         "current_streak": 1,
         "longest_streak": 1,
         "active_days": 1,
-        "total_marked": 2,
+        "total_marked": 3,
         "daily": [
           {
             "date": "2026-09-25",
-            "total": 2,
+            "total": 3,
             "L1": 2,
-            "L2": 0,
+            "L2": 1,
             "L3": 0
           }
         ]
