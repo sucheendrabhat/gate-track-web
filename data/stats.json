@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:47:46+00:00",
+  "generated_at": "2026-09-25T16:50:09+00:00",
   "sources": [
     {
       "id": 2,
@@ -25,8 +25,8 @@
       "total": 3823,
       "L1": 50,
       "L2": 20,
-      "L3": 29,
-      "NONE": 3724
+      "L3": 30,
+      "NONE": 3723
     },
     "by_chapter": [
       {
@@ -200,16 +200,6 @@
         "urgent": false
       },
       {
-        "chapter_name": "Databases",
-        "total": 302,
-        "NONE": 299,
-        "L1": 2,
-        "L2": 0,
-        "L3": 1,
-        "pct_done": 1.0,
-        "urgent": false
-      },
-      {
         "chapter_name": "Discrete Mathematics: Graph Theory",
         "total": 88,
         "NONE": 87,
@@ -217,6 +207,16 @@
         "L2": 0,
         "L3": 0,
         "pct_done": 1.1,
+        "urgent": false
+      },
+      {
+        "chapter_name": "Databases",
+        "total": 302,
+        "NONE": 298,
+        "L1": 2,
+        "L2": 0,
+        "L3": 2,
+        "pct_done": 1.3,
         "urgent": false
       },
       {
@@ -254,14 +254,14 @@
       "current_streak": 1,
       "longest_streak": 3,
       "active_days": 10,
-      "total_marked": 67,
+      "total_marked": 68,
       "daily": [
         {
           "date": "2026-09-25",
-          "total": 3,
+          "total": 4,
           "L1": 2,
           "L2": 0,
-          "L3": 1
+          "L3": 2
         },
         {
           "date": "2026-09-09",
@@ -479,8 +479,8 @@
         "total": 1435,
         "L1": 2,
         "L2": 0,
-        "L3": 1,
-        "NONE": 1432
+        "L3": 2,
+        "NONE": 1431
       },
       "by_chapter": [
         {
@@ -526,11 +526,11 @@
         {
           "chapter_name": "Databases",
           "total": 302,
-          "NONE": 299,
+          "NONE": 298,
           "L1": 2,
           "L2": 0,
-          "L3": 1,
-          "pct_done": 1.0,
+          "L3": 2,
+          "pct_done": 1.3,
           "urgent": false
         }
       ],
@@ -538,14 +538,14 @@
         "current_streak": 1,
         "longest_streak": 1,
         "active_days": 1,
-        "total_marked": 3,
+        "total_marked": 4,
         "daily": [
           {
             "date": "2026-09-25",
-            "total": 3,
+            "total": 4,
             "L1": 2,
             "L2": 0,
-            "L3": 1
+            "L3": 2
           }
         ]
       }
