@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:42:44+00:00",
+  "generated_at": "2026-09-29T12:31:34+00:00",
   "sources": [
     {
       "id": 1,
@@ -24,9 +24,9 @@
     "stats": {
       "total": 3823,
       "L1": 51,
-      "L2": 20,
+      "L2": 21,
       "L3": 30,
-      "NONE": 3722
+      "NONE": 3721
     },
     "by_chapter": [
       {
@@ -160,16 +160,6 @@
         "urgent": false
       },
       {
-        "chapter_name": "Operating System",
-        "total": 343,
-        "NONE": 343,
-        "L1": 0,
-        "L2": 0,
-        "L3": 0,
-        "pct_done": 0.0,
-        "urgent": false
-      },
-      {
         "chapter_name": "Programming and DS: Programming",
         "total": 1,
         "NONE": 1,
@@ -183,6 +173,16 @@
         "chapter_name": "Algorithms",
         "total": 358,
         "NONE": 357,
+        "L1": 0,
+        "L2": 1,
+        "L3": 0,
+        "pct_done": 0.3,
+        "urgent": false
+      },
+      {
+        "chapter_name": "Operating System",
+        "total": 343,
+        "NONE": 342,
         "L1": 0,
         "L2": 1,
         "L3": 0,
@@ -251,11 +251,18 @@
       }
     ],
     "activity": {
-      "current_streak": 0,
+      "current_streak": 1,
       "longest_streak": 3,
-      "active_days": 10,
-      "total_marked": 69,
+      "active_days": 11,
+      "total_marked": 70,
       "daily": [
+        {
+          "date": "2026-09-29",
+          "total": 1,
+          "L1": 0,
+          "L2": 1,
+          "L3": 0
+        },
         {
           "date": "2026-09-25",
           "total": 5,
@@ -477,9 +484,9 @@
       "stats": {
         "total": 1435,
         "L1": 3,
-        "L2": 0,
+        "L2": 1,
         "L3": 2,
-        "NONE": 1430
+        "NONE": 1429
       },
       "by_chapter": [
         {
@@ -515,11 +522,11 @@
         {
           "chapter_name": "Operating System",
           "total": 343,
-          "NONE": 343,
+          "NONE": 342,
           "L1": 0,
-          "L2": 0,
+          "L2": 1,
           "L3": 0,
-          "pct_done": 0.0,
+          "pct_done": 0.3,
           "urgent": false
         },
         {
@@ -534,11 +541,18 @@
         }
       ],
       "activity": {
-        "current_streak": 0,
+        "current_streak": 1,
         "longest_streak": 1,
-        "active_days": 1,
-        "total_marked": 5,
+        "active_days": 2,
+        "total_marked": 6,
         "daily": [
+          {
+            "date": "2026-09-29",
+            "total": 1,
+            "L1": 0,
+            "L2": 1,
+            "L3": 0
+          },
           {
             "date": "2026-09-25",
             "total": 5,
