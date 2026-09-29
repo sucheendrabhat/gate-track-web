@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:44:06+00:00",
+  "generated_at": "2026-09-29T12:47:09+00:00",
   "sources": [
     {
       "id": 1,
@@ -25,8 +25,8 @@
       "total": 3823,
       "L1": 53,
       "L2": 23,
-      "L3": 30,
-      "NONE": 3717
+      "L3": 31,
+      "NONE": 3716
     },
     "by_chapter": [
       {
@@ -200,22 +200,22 @@
         "urgent": false
       },
       {
-        "chapter_name": "Operating System",
-        "total": 343,
-        "NONE": 338,
-        "L1": 2,
-        "L2": 3,
-        "L3": 0,
-        "pct_done": 1.5,
-        "urgent": false
-      },
-      {
         "chapter_name": "Databases",
         "total": 302,
         "NONE": 297,
         "L1": 3,
         "L2": 0,
         "L3": 2,
+        "pct_done": 1.7,
+        "urgent": false
+      },
+      {
+        "chapter_name": "Operating System",
+        "total": 343,
+        "NONE": 337,
+        "L1": 2,
+        "L2": 3,
+        "L3": 1,
         "pct_done": 1.7,
         "urgent": false
       },
@@ -254,14 +254,14 @@
       "current_streak": 1,
       "longest_streak": 3,
       "active_days": 11,
-      "total_marked": 74,
+      "total_marked": 75,
       "daily": [
         {
           "date": "2026-09-29",
-          "total": 5,
+          "total": 6,
           "L1": 2,
           "L2": 3,
-          "L3": 0
+          "L3": 1
         },
         {
           "date": "2026-09-25",
@@ -485,8 +485,8 @@
         "total": 1435,
         "L1": 5,
         "L2": 3,
-        "L3": 2,
-        "NONE": 1425
+        "L3": 3,
+        "NONE": 1424
       },
       "by_chapter": [
         {
@@ -520,16 +520,6 @@
           "urgent": false
         },
         {
-          "chapter_name": "Operating System",
-          "total": 343,
-          "NONE": 338,
-          "L1": 2,
-          "L2": 3,
-          "L3": 0,
-          "pct_done": 1.5,
-          "urgent": false
-        },
-        {
           "chapter_name": "Databases",
           "total": 302,
           "NONE": 297,
@@ -538,20 +528,30 @@
           "L3": 2,
           "pct_done": 1.7,
           "urgent": false
+        },
+        {
+          "chapter_name": "Operating System",
+          "total": 343,
+          "NONE": 337,
+          "L1": 2,
+          "L2": 3,
+          "L3": 1,
+          "pct_done": 1.7,
+          "urgent": false
         }
       ],
       "activity": {
         "current_streak": 1,
         "longest_streak": 1,
         "active_days": 2,
-        "total_marked": 10,
+        "total_marked": 11,
         "daily": [
           {
             "date": "2026-09-29",
-            "total": 5,
+            "total": 6,
             "L1": 2,
             "L2": 3,
-            "L3": 0
+            "L3": 1
           },
           {
             "date": "2026-09-25",
