@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:32:02+00:00",
+  "generated_at": "2026-09-29T12:35:02+00:00",
   "sources": [
     {
       "id": 1,
@@ -23,10 +23,10 @@
   "unified": {
     "stats": {
       "total": 3823,
-      "L1": 51,
-      "L2": 21,
+      "L1": 52,
+      "L2": 22,
       "L3": 30,
-      "NONE": 3721
+      "NONE": 3719
     },
     "by_chapter": [
       {
@@ -180,16 +180,6 @@
         "urgent": false
       },
       {
-        "chapter_name": "Operating System",
-        "total": 343,
-        "NONE": 342,
-        "L1": 0,
-        "L2": 1,
-        "L3": 0,
-        "pct_done": 0.3,
-        "urgent": false
-      },
-      {
         "chapter_name": "Theory of Computation",
         "total": 293,
         "NONE": 291,
@@ -197,6 +187,16 @@
         "L2": 1,
         "L3": 1,
         "pct_done": 0.7,
+        "urgent": false
+      },
+      {
+        "chapter_name": "Operating System",
+        "total": 343,
+        "NONE": 340,
+        "L1": 1,
+        "L2": 2,
+        "L3": 0,
+        "pct_done": 0.9,
         "urgent": false
       },
       {
@@ -254,13 +254,13 @@
       "current_streak": 1,
       "longest_streak": 3,
       "active_days": 11,
-      "total_marked": 70,
+      "total_marked": 72,
       "daily": [
         {
           "date": "2026-09-29",
-          "total": 1,
-          "L1": 0,
-          "L2": 1,
+          "total": 3,
+          "L1": 1,
+          "L2": 2,
           "L3": 0
         },
         {
@@ -483,10 +483,10 @@
       "question_count": 1435,
       "stats": {
         "total": 1435,
-        "L1": 3,
-        "L2": 1,
+        "L1": 4,
+        "L2": 2,
         "L3": 2,
-        "NONE": 1429
+        "NONE": 1427
       },
       "by_chapter": [
         {
@@ -522,11 +522,11 @@
         {
           "chapter_name": "Operating System",
           "total": 343,
-          "NONE": 342,
-          "L1": 0,
-          "L2": 1,
+          "NONE": 340,
+          "L1": 1,
+          "L2": 2,
           "L3": 0,
-          "pct_done": 0.3,
+          "pct_done": 0.9,
           "urgent": false
         },
         {
@@ -544,13 +544,13 @@
         "current_streak": 1,
         "longest_streak": 1,
         "active_days": 2,
-        "total_marked": 6,
+        "total_marked": 8,
         "daily": [
           {
             "date": "2026-09-29",
-            "total": 1,
-            "L1": 0,
-            "L2": 1,
+            "total": 3,
+            "L1": 1,
+            "L2": 2,
             "L3": 0
           },
           {
