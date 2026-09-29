@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T12:35:02+00:00",
+  "generated_at": "2026-09-29T12:38:34+00:00",
   "sources": [
     {
       "id": 1,
@@ -23,10 +23,10 @@
   "unified": {
     "stats": {
       "total": 3823,
-      "L1": 52,
+      "L1": 53,
       "L2": 22,
       "L3": 30,
-      "NONE": 3719
+      "NONE": 3718
     },
     "by_chapter": [
       {
@@ -190,16 +190,6 @@
         "urgent": false
       },
       {
-        "chapter_name": "Operating System",
-        "total": 343,
-        "NONE": 340,
-        "L1": 1,
-        "L2": 2,
-        "L3": 0,
-        "pct_done": 0.9,
-        "urgent": false
-      },
-      {
         "chapter_name": "Discrete Mathematics: Graph Theory",
         "total": 88,
         "NONE": 87,
@@ -207,6 +197,16 @@
         "L2": 0,
         "L3": 0,
         "pct_done": 1.1,
+        "urgent": false
+      },
+      {
+        "chapter_name": "Operating System",
+        "total": 343,
+        "NONE": 339,
+        "L1": 2,
+        "L2": 2,
+        "L3": 0,
+        "pct_done": 1.2,
         "urgent": false
       },
       {
@@ -254,12 +254,12 @@
       "current_streak": 1,
       "longest_streak": 3,
       "active_days": 11,
-      "total_marked": 72,
+      "total_marked": 73,
       "daily": [
         {
           "date": "2026-09-29",
-          "total": 3,
-          "L1": 1,
+          "total": 4,
+          "L1": 2,
           "L2": 2,
           "L3": 0
         },
@@ -483,10 +483,10 @@
       "question_count": 1435,
       "stats": {
         "total": 1435,
-        "L1": 4,
+        "L1": 5,
         "L2": 2,
         "L3": 2,
-        "NONE": 1427
+        "NONE": 1426
       },
       "by_chapter": [
         {
@@ -522,11 +522,11 @@
         {
           "chapter_name": "Operating System",
           "total": 343,
-          "NONE": 340,
-          "L1": 1,
+          "NONE": 339,
+          "L1": 2,
           "L2": 2,
           "L3": 0,
-          "pct_done": 0.9,
+          "pct_done": 1.2,
           "urgent": false
         },
         {
@@ -544,12 +544,12 @@
         "current_streak": 1,
         "longest_streak": 1,
         "active_days": 2,
-        "total_marked": 8,
+        "total_marked": 9,
         "daily": [
           {
             "date": "2026-09-29",
-            "total": 3,
-            "L1": 1,
+            "total": 4,
+            "L1": 2,
             "L2": 2,
             "L3": 0
           },
