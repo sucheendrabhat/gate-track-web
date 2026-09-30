@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-30T04:22:59+00:00",
+  "generated_at": "2026-09-30T04:24:38+00:00",
   "sources": [
     {
-      "id": 2,
-      "filename": "filter1_volume1.pdf",
-      "added_at": "2026-07-28T08:16:29+00:00",
-      "question_count": 1125
+      "id": 3,
+      "filename": "filter1_volume3.pdf",
+      "added_at": "2026-07-29T15:29:54+00:00",
+      "question_count": 1435
     },
     {
       "id": 1,
@@ -14,10 +14,10 @@
       "question_count": 1263
     },
     {
-      "id": 3,
-      "filename": "filter1_volume3.pdf",
-      "added_at": "2026-07-29T15:29:54+00:00",
-      "question_count": 1435
+      "id": 2,
+      "filename": "filter1_volume1.pdf",
+      "added_at": "2026-07-28T08:16:29+00:00",
+      "question_count": 1125
     }
   ],
   "unified": {
@@ -337,23 +337,23 @@
     }
   },
   "by_source": {
-    "2": {
-      "filename": "filter1_volume1.pdf",
-      "added_at": "2026-07-28T08:16:29+00:00",
-      "last_opened": "2026-09-30T04:22:56+00:00",
-      "question_count": 1125,
+    "3": {
+      "filename": "filter1_volume3.pdf",
+      "added_at": "2026-07-29T15:29:54+00:00",
+      "last_opened": "2026-09-30T04:24:35+00:00",
+      "question_count": 1435,
       "stats": {
-        "total": 1125,
-        "L1": 1,
-        "L2": 0,
-        "L3": 0,
-        "NONE": 1124
+        "total": 1435,
+        "L1": 8,
+        "L2": 3,
+        "L3": 3,
+        "NONE": 1421
       },
       "by_chapter": [
         {
-          "chapter_name": "Discrete Mathematics: Combinatory",
-          "total": 51,
-          "NONE": 51,
+          "chapter_name": "CO & Architecture",
+          "total": 251,
+          "NONE": 251,
           "L1": 0,
           "L2": 0,
           "L3": 0,
@@ -361,9 +361,9 @@
           "urgent": false
         },
         {
-          "chapter_name": "Discrete Mathematics: Mathematical Logic",
-          "total": 78,
-          "NONE": 78,
+          "chapter_name": "Computer Networks",
+          "total": 226,
+          "NONE": 226,
           "L1": 0,
           "L2": 0,
           "L3": 0,
@@ -371,9 +371,9 @@
           "urgent": false
         },
         {
-          "chapter_name": "Discrete Mathematics: Set Theory & Algebra",
-          "total": 173,
-          "NONE": 173,
+          "chapter_name": "Digital Logic",
+          "total": 313,
+          "NONE": 313,
           "L1": 0,
           "L2": 0,
           "L3": 0,
@@ -381,98 +381,45 @@
           "urgent": false
         },
         {
-          "chapter_name": "Engineering Mathematics: Calculus",
-          "total": 69,
-          "NONE": 69,
-          "L1": 0,
+          "chapter_name": "Databases",
+          "total": 302,
+          "NONE": 297,
+          "L1": 3,
           "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
+          "L3": 2,
+          "pct_done": 1.7,
           "urgent": false
         },
         {
-          "chapter_name": "Engineering Mathematics: Linear Algebra",
-          "total": 112,
-          "NONE": 112,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
-        {
-          "chapter_name": "Engineering Mathematics: Probability",
-          "total": 125,
-          "NONE": 125,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
-        {
-          "chapter_name": "General Aptitude: Analytical Aptitude",
-          "total": 48,
-          "NONE": 48,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
-        {
-          "chapter_name": "General Aptitude: Quantitative Aptitude",
-          "total": 197,
-          "NONE": 197,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
-        {
-          "chapter_name": "General Aptitude: Spatial Aptitude",
-          "total": 19,
-          "NONE": 19,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
-        {
-          "chapter_name": "General Aptitude: Verbal Aptitude",
-          "total": 165,
-          "NONE": 165,
-          "L1": 0,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 0.0,
-          "urgent": false
-        },
-        {
-          "chapter_name": "Discrete Mathematics: Graph Theory",
-          "total": 88,
-          "NONE": 87,
-          "L1": 1,
-          "L2": 0,
-          "L3": 0,
-          "pct_done": 1.1,
+          "chapter_name": "Operating System",
+          "total": 343,
+          "NONE": 334,
+          "L1": 5,
+          "L2": 3,
+          "L3": 1,
+          "pct_done": 2.6,
           "urgent": false
         }
       ],
       "activity": {
-        "current_streak": 0,
+        "current_streak": 1,
         "longest_streak": 1,
-        "active_days": 1,
-        "total_marked": 1,
+        "active_days": 2,
+        "total_marked": 14,
         "daily": [
           {
-            "date": "2026-08-18",
-            "total": 1,
-            "L1": 1,
+            "date": "2026-09-29",
+            "total": 9,
+            "L1": 5,
+            "L2": 3,
+            "L3": 1
+          },
+          {
+            "date": "2026-09-25",
+            "total": 5,
+            "L1": 3,
             "L2": 0,
-            "L3": 0
+            "L3": 2
           }
         ]
       }
@@ -480,7 +427,7 @@
     "1": {
       "filename": "filter1_volume2.pdf",
       "added_at": "2026-07-28T04:41:55+00:00",
-      "last_opened": "2026-09-30T04:22:55+00:00",
+      "last_opened": "2026-09-30T04:24:34+00:00",
       "question_count": 1263,
       "stats": {
         "total": 1263,
@@ -616,23 +563,23 @@
         ]
       }
     },
-    "3": {
-      "filename": "filter1_volume3.pdf",
-      "added_at": "2026-07-29T15:29:54+00:00",
-      "last_opened": "2026-09-30T04:22:55+00:00",
-      "question_count": 1435,
+    "2": {
+      "filename": "filter1_volume1.pdf",
+      "added_at": "2026-07-28T08:16:29+00:00",
+      "last_opened": "2026-09-30T04:24:34+00:00",
+      "question_count": 1125,
       "stats": {
-        "total": 1435,
-        "L1": 8,
-        "L2": 3,
-        "L3": 3,
-        "NONE": 1421
+        "total": 1125,
+        "L1": 1,
+        "L2": 0,
+        "L3": 0,
+        "NONE": 1124
       },
       "by_chapter": [
         {
-          "chapter_name": "CO & Architecture",
-          "total": 251,
-          "NONE": 251,
+          "chapter_name": "Discrete Mathematics: Combinatory",
+          "total": 51,
+          "NONE": 51,
           "L1": 0,
           "L2": 0,
           "L3": 0,
@@ -640,9 +587,9 @@
           "urgent": false
         },
         {
-          "chapter_name": "Computer Networks",
-          "total": 226,
-          "NONE": 226,
+          "chapter_name": "Discrete Mathematics: Mathematical Logic",
+          "total": 78,
+          "NONE": 78,
           "L1": 0,
           "L2": 0,
           "L3": 0,
@@ -650,9 +597,9 @@
           "urgent": false
         },
         {
-          "chapter_name": "Digital Logic",
-          "total": 313,
-          "NONE": 313,
+          "chapter_name": "Discrete Mathematics: Set Theory & Algebra",
+          "total": 173,
+          "NONE": 173,
           "L1": 0,
           "L2": 0,
           "L3": 0,
@@ -660,45 +607,98 @@
           "urgent": false
         },
         {
-          "chapter_name": "Databases",
-          "total": 302,
-          "NONE": 297,
-          "L1": 3,
+          "chapter_name": "Engineering Mathematics: Calculus",
+          "total": 69,
+          "NONE": 69,
+          "L1": 0,
           "L2": 0,
-          "L3": 2,
-          "pct_done": 1.7,
+          "L3": 0,
+          "pct_done": 0.0,
           "urgent": false
         },
         {
-          "chapter_name": "Operating System",
-          "total": 343,
-          "NONE": 334,
-          "L1": 5,
-          "L2": 3,
-          "L3": 1,
-          "pct_done": 2.6,
+          "chapter_name": "Engineering Mathematics: Linear Algebra",
+          "total": 112,
+          "NONE": 112,
+          "L1": 0,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.0,
+          "urgent": false
+        },
+        {
+          "chapter_name": "Engineering Mathematics: Probability",
+          "total": 125,
+          "NONE": 125,
+          "L1": 0,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.0,
+          "urgent": false
+        },
+        {
+          "chapter_name": "General Aptitude: Analytical Aptitude",
+          "total": 48,
+          "NONE": 48,
+          "L1": 0,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.0,
+          "urgent": false
+        },
+        {
+          "chapter_name": "General Aptitude: Quantitative Aptitude",
+          "total": 197,
+          "NONE": 197,
+          "L1": 0,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.0,
+          "urgent": false
+        },
+        {
+          "chapter_name": "General Aptitude: Spatial Aptitude",
+          "total": 19,
+          "NONE": 19,
+          "L1": 0,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.0,
+          "urgent": false
+        },
+        {
+          "chapter_name": "General Aptitude: Verbal Aptitude",
+          "total": 165,
+          "NONE": 165,
+          "L1": 0,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 0.0,
+          "urgent": false
+        },
+        {
+          "chapter_name": "Discrete Mathematics: Graph Theory",
+          "total": 88,
+          "NONE": 87,
+          "L1": 1,
+          "L2": 0,
+          "L3": 0,
+          "pct_done": 1.1,
           "urgent": false
         }
       ],
       "activity": {
-        "current_streak": 1,
+        "current_streak": 0,
         "longest_streak": 1,
-        "active_days": 2,
-        "total_marked": 14,
+        "active_days": 1,
+        "total_marked": 1,
         "daily": [
           {
-            "date": "2026-09-29",
-            "total": 9,
-            "L1": 5,
-            "L2": 3,
-            "L3": 1
-          },
-          {
-            "date": "2026-09-25",
-            "total": 5,
-            "L1": 3,
+            "date": "2026-08-18",
+            "total": 1,
+            "L1": 1,
             "L2": 0,
-            "L3": 2
+            "L3": 0
           }
         ]
       }
