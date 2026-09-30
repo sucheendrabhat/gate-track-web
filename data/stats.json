@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T04:24:38+00:00",
+  "generated_at": "2026-09-30T04:25:03+00:00",
   "sources": [
     {
       "id": 3,
@@ -23,10 +23,10 @@
   "unified": {
     "stats": {
       "total": 3823,
-      "L1": 56,
+      "L1": 57,
       "L2": 23,
       "L3": 31,
-      "NONE": 3713
+      "NONE": 3712
     },
     "by_chapter": [
       {
@@ -172,11 +172,11 @@
       {
         "chapter_name": "Algorithms",
         "total": 358,
-        "NONE": 357,
-        "L1": 0,
+        "NONE": 356,
+        "L1": 1,
         "L2": 1,
         "L3": 0,
-        "pct_done": 0.3,
+        "pct_done": 0.6,
         "urgent": false
       },
       {
@@ -251,11 +251,18 @@
       }
     ],
     "activity": {
-      "current_streak": 1,
+      "current_streak": 2,
       "longest_streak": 3,
-      "active_days": 11,
-      "total_marked": 78,
+      "active_days": 12,
+      "total_marked": 79,
       "daily": [
+        {
+          "date": "2026-09-30",
+          "total": 1,
+          "L1": 1,
+          "L2": 0,
+          "L3": 0
+        },
         {
           "date": "2026-09-29",
           "total": 9,
@@ -431,10 +438,10 @@
       "question_count": 1263,
       "stats": {
         "total": 1263,
-        "L1": 47,
+        "L1": 48,
         "L2": 20,
         "L3": 28,
-        "NONE": 1168
+        "NONE": 1167
       },
       "by_chapter": [
         {
@@ -450,11 +457,11 @@
         {
           "chapter_name": "Algorithms",
           "total": 358,
-          "NONE": 357,
-          "L1": 0,
+          "NONE": 356,
+          "L1": 1,
           "L2": 1,
           "L3": 0,
-          "pct_done": 0.3,
+          "pct_done": 0.6,
           "urgent": false
         },
         {
@@ -499,11 +506,18 @@
         }
       ],
       "activity": {
-        "current_streak": 0,
+        "current_streak": 1,
         "longest_streak": 2,
-        "active_days": 8,
-        "total_marked": 63,
+        "active_days": 9,
+        "total_marked": 64,
         "daily": [
+          {
+            "date": "2026-09-30",
+            "total": 1,
+            "L1": 1,
+            "L2": 0,
+            "L3": 0
+          },
           {
             "date": "2026-09-09",
             "total": 1,
